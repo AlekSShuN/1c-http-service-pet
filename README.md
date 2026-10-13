@@ -15,6 +15,16 @@ Pet-проект: HTTP-сервис на **1С:Предприятие 8.5**, р�
 
 ---
 
+## Скриншоты
+
+### GET /hs/products/list
+![GET request](docs/get-postman.png)
+
+### POST /hs/products/orders
+![POST request](docs/post-postman.png)
+
+---
+
 ## Стек
 
 | Компонент | Версия |
