@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.21">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ОстаткиТоваров" id="ab9ba48b-4c91-4515-87a4-c6b8a01b82c7" configVersion="a031db4c2c711c4780a64452d817f4b400000000">
+			<Metadata name="AccumulationRegister.ОстаткиТоваров.Dimension.Товар" id="10e5f17e-5f26-4f43-aec9-515bcc57da05"/>
+			<Metadata name="AccumulationRegister.ОстаткиТоваров.Dimension.Склад" id="44abdce8-8590-4cc6-ab07-15f37855ccb6"/>
+			<Metadata name="AccumulationRegister.ОстаткиТоваров.Resource.Количество" id="5b9a252c-8289-4545-9d98-5f19194d95a5"/>
+		</Metadata>
+		<Metadata name="Catalog.Склады" id="1b0e9e53-81b4-4109-812f-a1daba11cfaa" configVersion="d65cceac2bfe8e42902f5274654186d000000000"/>
+		<Metadata name="Catalog.Товары" id="238d257b-8dab-4e73-bfa8-a4c2b8f7f1b7" configVersion="a0e740e98040214da655aa47688da70100000000">
+			<Metadata name="Catalog.Товары.Attribute.Цена" id="11f89c2b-8bd7-49a9-b0d6-b43b1b17a890"/>
+		</Metadata>
+		<Metadata name="CommonModule.JSONHelper" id="2f065745-6b68-4b2a-9c80-78b68c5f402c" configVersion="215e976ee935ff49a16a8930dd7f97ce00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="d01b723f-1789-4cfd-b4be-8dafe5038fe4" configVersion="ce39c3243b670a49af1b013778e0651300000000"/>
+		<Metadata name="Document.ЗаказКлиента" id="f385a469-c933-43cb-8492-d00654dcb4f6" configVersion="cbaec49909c3d148be84fe8770ac44e200000000">
+			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Количество" id="0052e075-ae6a-4f7d-98d3-47dd4ce0e07b"/>
+			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Цена" id="155445a3-f507-4b02-98cc-c27e7961e9db"/>
+			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Сумма" id="16fd0315-d08e-4cbc-bed5-259ca716b5dc"/>
+			<Metadata name="Document.ЗаказКлиента.Attribute.ДатаЗаказа" id="21479dd6-0ed6-4c22-9f1a-639b9a9a5fc7"/>
+			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Товар" id="524aefa5-dafa-4cbe-9278-b435934f122d"/>
+			<Metadata name="Document.ЗаказКлиента.Attribute.Склад" id="69ff871a-18ba-45d2-8e10-ba5b8bdacbcc"/>
+			<Metadata name="Document.ЗаказКлиента.Attribute.Клиент" id="73a6e0d8-0783-4c63-8d04-81f8552cdcbc"/>
+			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары" id="80367af7-4624-4d54-88cd-cd199398ba05"/>
+			<Metadata name="Document.ЗаказКлиента.Attribute.ВнешнийНомер" id="c5d66e98-fc0b-4090-9767-9dcd3c333424"/>
+		</Metadata>
+		<Metadata name="Document.ПоступлениеТоваров" id="95f9b76f-ae71-4efa-93d5-b5c2b76aa6dd" configVersion="81809e6c2924e945bfb208ff4b6f53bb00000000">
+			<Metadata name="Document.ПоступлениеТоваров.Attribute.Склад" id="0c2d3d26-7e14-4378-803d-7a2a55204c7d"/>
+			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.Сумма" id="3c055132-9116-46cf-9f06-c0c1606f13df"/>
+			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.Количество" id="529abb10-bc83-4e92-a729-83c20e4bf00b"/>
+			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.Товар" id="7723e715-61e8-4483-93b4-9c20c98e7b3d"/>
+			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.Цена" id="a683afbc-e20a-44db-abee-bddba46c3fba"/>
+			<Metadata name="Document.ПоступлениеТоваров.TabularSection.Товары" id="d71d2174-5b96-46ac-9766-92924c85ceb0"/>
+		</Metadata>
+		<Metadata name="Document.ПоступлениеТоваров.ObjectModule" id="95f9b76f-ae71-4efa-93d5-b5c2b76aa6dd.0" configVersion="5bce4364bb0b8f4a8cd9a534f9065d5200000000"/>
+		<Metadata name="HTTPService.ProductServices" id="65b5cd74-f81c-4bd1-b6b7-a11fadc6421b" configVersion="6cb5c432215aa6418cc9c23789f3638d00000000">
+			<Metadata name="HTTPService.ProductServices.URLTemplate.Products.Method.GETProducts" id="75fa17fb-2a2f-4a73-9c24-590fc6310e57"/>
+			<Metadata name="HTTPService.ProductServices.URLTemplate.Products" id="8639544e-ef1c-4b7b-b92f-94bf33dd21ce"/>
+		</Metadata>
+		<Metadata name="HTTPService.ProductServices.Module" id="65b5cd74-f81c-4bd1-b6b7-a11fadc6421b.0" configVersion="69d4bc83b1148e47b401af590c5e761100000000"/>
+		<Metadata name="Language.Русский" id="bb92c4a9-8029-47a4-a702-63f08a1fb04a" configVersion="cbb688d46a44194f8f1200d00b3516c000000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
